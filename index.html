@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mundo Novo Idiomas</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🌍 Mundo Novo Idiomas</h1>
+<h2>Grego Koiné do Novo Testamento</h2>
+
+<div class="card">
+    <p id="frase">Clique em "Nova Frase"</p>
+    <input type="text" id="resposta" placeholder="Digite a tradução">
+    <button onclick="verificar()">Verificar</button>
+    <button onclick="novaFrase()">Nova Frase</button>
+    <button onclick="ouvir()">🔊 Ouvir</button>
+    <p id="resultado"></p>
+</div>
+
+<div class="progresso">
+    <p>Nível: <span id="nivel">1</span></p>
+    <p>XP: <span id="xp">0</span></p>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
