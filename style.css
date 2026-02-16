@@ -1,0 +1,31 @@
+body {
+    background: #f4e4c1;
+    font-family: serif;
+    text-align: center;
+}
+
+h1 {
+    color: #5a3e1b;
+}
+
+.card {
+    background: #fff8dc;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    border: 2px solid #8b6f47;
+    border-radius: 10px;
+}
+
+button {
+    margin: 5px;
+    padding: 8px;
+    background: #8b6f47;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #5a3e1b;
+}
